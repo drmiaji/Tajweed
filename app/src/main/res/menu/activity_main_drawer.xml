@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/watch_islamic_video">
+        <menu>
+            <item
+                android:id="@+id/boktiyar"
+                android:icon="@drawable/youtube"
+                android:title="@string/gausul_azam" />
+            <item
+                android:id="@+id/dawateislami2"
+                android:icon="@drawable/youtube"
+                android:title="@string/dawate_islami_bangla_live" />
+            <item
+                android:id="@+id/ahlussunnah"
+                android:icon="@drawable/youtube"
+                android:title="@string/ahlussunnah_media" />
+            <item
+                android:id="@+id/beauti"
+                android:icon="@drawable/youtube"
+                android:title="@string/beautiful_islam_bd" />
+            <item
+                android:id="@+id/jaalhaq"
+                android:icon="@drawable/youtube"
+                android:title="@string/ja_al_haq" />
+            <item
+                android:id="@+id/bukhariu"
+                android:icon="@drawable/youtube"
+                android:title="@string/ershad" />
+            <item
+                android:id="@+id/tazedaremadani"
+                android:icon="@drawable/youtube"
+                android:title="@string/tazedare_madina" />
+            <item
+                android:id="@+id/qadri"
+                android:icon="@drawable/youtube"
+                android:title="@string/dr_allama_tahirul_qadri" />
+            <item
+                android:id="@+id/pirsakib"
+                android:icon="@drawable/youtube"
+                android:title="@string/allama_pir_sakib_iqbal" />
+            <item
+                android:id="@+id/madani"
+                android:icon="@drawable/youtube"
+                android:title="@string/madani_channel" />
+            <item
+                android:id="@+id/sunniwaz"
+                android:icon="@drawable/youtube"
+                android:title="@string/sunniwaz" />
+            <item
+                android:id="@+id/ajmeer"
+                android:icon="@drawable/youtube"
+                android:title="@string/ajmeer" />
+            <item
+                android:id="@+id/taheri"
+                android:icon="@drawable/youtube"
+                android:title="@string/taheri" />
+            <item
+                android:id="@+id/naat2"
+                android:icon="@drawable/youtube"
+                android:title="@string/naat" />
+            <item
+                android:id="@+id/naat"
+                android:icon="@drawable/youtube"
+                android:title="@string/shayer_muhammad_shahidul_islam" />
+            <item
+                android:id="@+id/muslim"
+                android:icon="@drawable/youtube"
+                android:title="@string/muslim" />
+            <item
+                android:id="@+id/muslim2"
+                android:icon="@drawable/youtube"
+                android:title="@string/hasan_hd_media" />
+            <item
+                android:id="@+id/bukhari"
+                android:icon="@drawable/youtube"
+                android:title="@string/bukhari" />
+            <item
+                android:id="@+id/speech"
+                android:icon="@drawable/youtube"
+                android:title="@string/islamicspeech_bd" />
+            <item
+                android:id="@+id/ahleindia"
+                android:icon="@drawable/youtube"
+                android:title="@string/ahle_sunnat_wal_jamayat_india_bangla" />
+            <item
+                android:id="@+id/kobir"
+                android:icon="@drawable/youtube"
+                android:title="@string/mufti_humayun_kabir" />
+            <item
+                android:id="@+id/iqra"
+                android:icon="@drawable/youtube"
+                android:title="@string/iqra" />
+        </menu>
+    </item>
+
+    <item android:title="@string/be_connected">
+        <menu>
+            <item
+                android:id="@+id/miaji"
+                android:icon="@drawable/fb"
+                android:title="@string/dr_abdul_baten_miaji" />
+        </menu>
+    </item>
+
+
+    <item android:title="@string/islamic_websites">
+        <menu>
+            <item
+                android:id="@+id/tauhid"
+                android:icon="@drawable/weblink"
+                android:title="@string/tauhid" />
+            <item
+                android:id="@+id/alahazrat"
+                android:icon="@drawable/weblink"
+                android:title="@string/ala_hazrat_net" />
+            <item
+                android:id="@+id/sunnilibrary"
+                android:icon="@drawable/weblink"
+                android:title="@string/sunni_online_library" />
+            <item
+                android:id="@+id/anjuman"
+                android:icon="@drawable/weblink"
+                android:title="@string/anjuman" />
+            <item
+                android:id="@+id/qadri2"
+                android:icon="@drawable/weblink"
+                android:title="@string/minhaz_ul_quran" />
+            <item
+                android:id="@+id/dawateislami"
+                android:icon="@drawable/weblink"
+                android:title="@string/dawateislami" />
+            <item
+                android:id="@+id/arif"
+                android:icon="@drawable/weblink"
+                android:title="@string/ahlesunnatbd_net" />
+            <item
+                android:id="@+id/amarislam"
+                android:icon="@drawable/weblink"
+                android:title="@string/amarislam" />
+            <item
+                android:id="@+id/sonarmadina"
+                android:icon="@drawable/weblink"
+                android:title="@string/sonarmadina" />
+            <item
+                android:id="@+id/darsulquran"
+                android:icon="@drawable/weblink"
+                android:title="@string/darsulquran" />
+            <item
+                android:id="@+id/bsena"
+                android:icon="@drawable/weblink"
+                android:title="@string/bisena" />
+            <item
+                android:id="@+id/yanabi"
+                android:icon="@drawable/weblink"
+                android:title="@string/yanabi" />
+            <item
+                android:id="@+id/muzaddedia"
+                android:icon="@drawable/weblink"
+                android:title="@string/muzaddedia" />
+            <item
+                android:id="@+id/aswat"
+                android:icon="@drawable/weblink"
+                android:title="@string/aswat_al_islam" />
+            <item
+                android:id="@+id/rowshon"
+                android:icon="@drawable/weblink"
+                android:title="@string/rowshon" />
+            <item
+                android:id="@+id/sunnidotcom"
+                android:icon="@drawable/weblink"
+                android:title="@string/sunnidot" />
+            <item
+                android:id="@+id/islamimedia"
+                android:icon="@drawable/weblink"
+                android:title="@string/islami_media" />
+            <item
+                android:id="@+id/islamisena"
+                android:icon="@drawable/weblink"
+                android:title="@string/islamisena" />
+            <item
+                android:id="@+id/sunnidunia"
+                android:icon="@drawable/weblink"
+                android:title="@string/sunnidunia" />
+            <item
+                android:id="@+id/sunnipedia"
+                android:icon="@drawable/weblink"
+                android:title="@string/sunni_pedia" />
+            <item
+                android:id="@+id/aziz"
+                android:icon="@drawable/weblink"
+                android:title="@string/aziz" />
+            <item
+                android:id="@+id/sahihaqida"
+                android:icon="@drawable/weblink"
+                android:title="@string/saih_aqeeda" />
+        </menu>
+    </item>
+    <item android:title="@string/scholars">
+        <menu>
+            <item
+                android:id="@+id/abul_kashem"
+                android:icon="@drawable/fb"
+                android:title="@string/abul_kashem" />
+            <item
+                android:id="@+id/boktiyar2"
+                android:icon="@drawable/fb"
+                android:title="@string/bokhtiyar" />
+            <item
+                android:id="@+id/ershad"
+                android:icon="@drawable/fb"
+                android:title="@string/ershad" />
+            <item
+                android:id="@+id/ainul"
+                android:icon="@drawable/fb"
+                android:title="@string/ainul" />
+            <item
+                android:id="@+id/jasim"
+                android:icon="@drawable/fb"
+                android:title="@string/mufti_jashim_uddin_azhari" />
+        </menu>
+    </item>
+
+</menu>

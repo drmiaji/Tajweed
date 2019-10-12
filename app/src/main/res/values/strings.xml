@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">সহজ নিয়মে কুরআন শেখা</string>
+    <string name="about_us">About us</string>
+    <string name="about">www.drmiaji.com</string>
+    <string name="action_content">সূচী/Content</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_exit">*******************\nজাজাকাল্লাহু খাইরান!\n*******************\n\nআপনি কি বের হতে চান? আবার আমন্ত্রণ রইলো!</string>
+    <string name="action_share">বইটি শেয়ার করতে এখানে ক্লিক করুন!</string>
+    <string name="feedBack">Please give us 5 star!\n৫ স্টার কাম্য!</string>
+    <string name="more_apps">More Apps</string>
+    <string name="share_message">আসসালামু আলাইকুম ওয়ারাহমাতুল্লাহ\t \nশুদ্ধ করে কুরআন পড়ার জন্য তাজবীদের বই নিয়ে এই এপ। আমার খুব ভালো লেগেছে, আর আশা করি আপনারও ভালো লাগবে। নিচের লিংক থেকে আপনার Android ফোনে এই এপটি ইন্সটল করতে পারবেন। \nজাজাকুমুল্লাহু খাইরান!\t \nhttps://play.google.com/store/apps/details?id=com.drmiaji.tajweed</string>
+    <string name="login_cancelled">Login Cancelled.</string>
+    <string name="login_error">login_error</string>
+    <!-- Strings related to login -->
+    <string name="share_subject">Subject</string>
+    <string name="facebook_app_id">138931420223089</string>
+    <string name="mainimage">mainImage</string>
+    <string name="chap00h">এক নজরে দেখে নিন\nএ বইটি অন্য সকল তাজবীদের বই থেকে আলাদা কেন?</string>
+    <string name="chap00">আল-কুরআনের পরিচয়ঃ</string>
+    <string name="chap01h">প্রথম অধ্যায়ঃ</string>
+    <string name="chap02h">দ্বিতীয় অধ্যায়ঃ</string>
+    <string name="chap03h">তৃতীয় অধ্যায়ঃ</string>
+    <string name="chap04h">চতুর্থ অধ্যায়ঃ</string>
+    <string name="chap05h">পঞ্চম অধ্যায়ঃ</string>
+    <string name="chap06h">ষষ্ঠ অধ্যায়ঃ</string>
+    <string name="chap01">প্রথম পাঠঃ মাখরাজ</string>
+    <string name="chap02">দ্বিতীয় পাঠঃ মাখরাজ অনুযায়ী হরফের চার্ট</string>
+    <string name="chap03">তৃতীয় পাঠঃ মাখরাজ অনুযায়ী প্র্যাকটিস</string>
+    <string name="chap04">প্রথম পাঠঃ রসমে খাত</string>
+    <string name="chap05">দ্বিতীয় পাঠঃ ক্বলক্বলাহ</string>
+    <string name="chap06">তৃতীয় পাঠঃ ل হরফের পোর-বারিক</string>
+    <string name="chap07">চতুর্থ পাঠঃ ر হরফের পোর-বারিক</string>
+    <string name="chap08">প্রথম পাঠঃ মাদ্দ</string>
+    <string name="chap09">দ্বিতীয় পাঠঃ আলিফে জাইদাহ্</string>
+    <string name="chap10">প্রথম পাঠঃ গুন্নাহ</string>
+    <string name="chap11">দ্বিতীয় পাঠঃ মীম সাকিন ( مْ) পড়ার নিয়ম</string>
+    <string name="chap12">তৃতীয় পাঠঃ নূন সাকিল (نْ) পড়ার নিয়ম</string>
+    <string name="chap13">চতুর্থ পাঠঃ তানবীন পড়ার নিয়ম</string>
+    <string name="chap14">প্রথম পাঠঃ ওয়াকফ</string>
+    <string name="chap15">দ্বিতীয় পাঠঃ তিলাওয়াতে সিজদাহ্</string>
+    <string name="chap16">তৃতীয় পাঠঃ  س কে ص দিয়ে বদল করে পড়া</string>
+    <string name="chap17">নামাজে সর্বাধিক পঠিত ১১ টি সূরা</string>
+    <string name="chap01a">প্রথম অধ্যায়ঃ\nপ্রথম পাঠঃ মাখরাজ</string>
+    <string name="chap02a">প্রথম অধ্যায়ঃ\nদ্বিতীয় পাঠঃ মাখরাজ অনুযায়ী হরফের চার্ট</string>
+    <string name="chap03a">প্রথম অধ্যায়ঃ\nতৃতীয় পাঠঃ মাখরাজ অনুযায়ী প্র্যাকটিস</string>
+    <string name="chap04b">দ্বিতীয় অধ্যায়ঃ\nপ্রথম পাঠঃ রসমে খাত</string>
+    <string name="chap05b">দ্বিতীয় অধ্যায়ঃ\nদ্বিতীয় পাঠঃ ক্বলক্বলাহ</string>
+    <string name="chap06b">দ্বিতীয় অধ্যায়ঃ\nতৃতীয় পাঠঃ ل হরফের পোর-বারিক</string>
+    <string name="chap07b">দ্বিতীয় অধ্যায়ঃ\nচতুর্থ পাঠঃ ر হরফের পোর-বারিক</string>
+    <string name="chap08c">তৃতীয় অধ্যায়ঃ\nপ্রথম পাঠঃ মাদ্দ</string>
+    <string name="chap09c">তৃতীয় অধ্যায়ঃ\nদ্বিতীয় পাঠঃ আলিফে জাইদাহ্</string>
+    <string name="chap10d">চতুর্থ অধ্যায়ঃ\nপ্রথম পাঠঃ গুন্নাহ</string>
+    <string name="chap11d">চতুর্থ অধ্যায়ঃ\nদ্বিতীয় পাঠঃ মীম সাকিন ( مْ) পড়ার নিয়ম</string>
+    <string name="chap12d">চতুর্থ অধ্যায়ঃ\nতৃতীয় পাঠঃ নূন সাকিন (نْ) পড়ার নিয়ম</string>
+    <string name="chap13d">চতুর্থ অধ্যায়ঃ\nচতুর্থ পাঠঃ তানবীন পড়ার নিয়ম</string>
+    <string name="chap14e">পঞ্চম অধ্যায়ঃ\nপ্রথম পাঠঃ ওয়াকফ</string>
+    <string name="chap15e">পঞ্চম অধ্যায়ঃ\nদ্বিতীয় পাঠঃ তিলাওয়াতে সিজদাহ্</string>
+    <string name="chap16e">পঞ্চম অধ্যায়ঃ\nতৃতীয় পাঠঃ  س কে ص দিয়ে বদল করে পড়া</string>
+    <string name="chap17f">ষষ্ঠ অধ্যায়ঃ\nনামাজে সর্বাধিক পঠিত ১১ টি সূরা</string>
+    <string name="about2">আমাদের সম্পর্কে</string>
+    <string name="about_us2">রচনাঃ আলিমা আরিফা বিল্লাহ\n\nপ্রোগ্রামিংঃ\nডঃ আব্দুল বাতেন মিয়াজী\n\nইসলামী বিষয়াদি সম্পর্কে জানতে এবং অনলাইনে গ্রন্থাগার থেকে গুরুত্বপূর্ণ কিতাব ডাউনলোড করতে নিচের লিংকে ভিজিট করুন।</string>
+    <string name="chap14b">ওয়াকফ: আয়াতের শেষ শব্দের শেষ হরফে থেমে যাওয়া এবং নতুন করে নিশ্বাস নিয়ে পরর্বতী আয়াত তেলাওয়াত করাকে ওয়াকফ বলে।\n\nকোথায় ওয়াকফ করবঃ\nআয়াতের শেষে ওয়াকফ করব অর্থাৎ আয়াতের শেষ শব্দের শেষ হরফে থামতে হবে।পবিত্র কুরআনুল কারীমে আয়াতের শেষে কিছু সুর্নিদিষ্ট চিহ্ন রয়েছে।এসমস্ত চিহ্ন ‎‎আমাদেরকে আয়াতের শেষে থামা এবং না থামার ব্যাপারে নির্দেশনা দিয়ে থাকে।আমাদেরকে জানতে হবে কোন কোন চিহ্ন থাকলে থামতে হবে আর কোন কোন চিহ্ন থাকলে থামতে হবেনা। তাহলে আমরা তেলাওয়াতের সময় যথাযথভাবে ওয়াকফ আদায় করতে পারবো। ইনশা আল্লাহ!\n\nকখন ওয়াকফ করব\n============</string>
+
+</resources>

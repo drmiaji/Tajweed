@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#112442">
+
+    <include
+        android:id="@id/app_bar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/app_bar"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/content" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/intro0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap00h"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/intro1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap00"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#112442"
+                android:text="@string/chap01h"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@id/chap01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap01"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@id/chap02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap02"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/chap03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap03"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#112442"
+                android:text="@string/chap02h"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/chap04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap04"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/chap05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap05"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@id/chap06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap06"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@id/chap07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap07"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#112442"
+                android:text="@string/chap03h"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@id/chap08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap08"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@id/chap09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap09"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#112442"
+                android:text="@string/chap04h"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/chap10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap10"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/chap11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap11"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/chap12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap12"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/chap13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap13"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#112442"
+                android:text="@string/chap05h"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/chap14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap14"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/chap15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap15"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/chap16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap16"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#112442"
+                android:text="@string/chap06h"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/chap17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/chap17"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/about2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99d5cf"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="goTochap"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="@string/about2"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:background="@android:color/holo_red_dark" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
