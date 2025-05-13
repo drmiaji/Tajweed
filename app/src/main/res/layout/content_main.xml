@@ -16,5 +16,6 @@
         android:contentDescription="@string/mainimage"
         android:fitsSystemWindows="true"
         android:onClick="goToMenu"
-        app:srcCompat="@drawable/tajweed01" />
+        app:srcCompat="@drawable/tajweed01"
+        tools:ignore="UsingOnClickInXml" />
 </RelativeLayout>

@@ -50,7 +50,8 @@
                 android:text="@string/chap2t1"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -80,7 +81,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t2"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -93,7 +95,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t3"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -115,7 +118,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t4"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -128,7 +132,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t5"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -150,7 +155,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t6"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -163,7 +169,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t7"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -185,7 +192,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t8"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -198,7 +206,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t9"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -220,7 +229,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t10"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -233,7 +243,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t11"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -255,7 +266,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t12"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -268,7 +280,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t13"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -290,7 +303,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t14"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -303,7 +317,8 @@
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap2t15"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 

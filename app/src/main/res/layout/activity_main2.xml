@@ -30,6 +30,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="TODO"
                 android:src="@drawable/content" />
 
             <View
@@ -49,6 +50,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap00h"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -69,6 +71,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap00"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -83,6 +86,7 @@
                 android:background="#112442"
                 android:text="@string/chap01h"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -104,6 +108,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap01"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -124,6 +129,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap02"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -144,6 +150,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap03"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -158,6 +165,7 @@
                 android:background="#112442"
                 android:text="@string/chap02h"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -179,6 +187,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap04"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -199,6 +208,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap05"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -219,6 +229,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap06"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -239,6 +250,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap07"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -253,6 +265,7 @@
                 android:background="#112442"
                 android:text="@string/chap03h"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -274,6 +287,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap08"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -294,6 +308,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap09"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -308,6 +323,7 @@
                 android:background="#112442"
                 android:text="@string/chap04h"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -329,6 +345,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap10"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -349,6 +366,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap11"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -369,6 +387,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap12"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -389,6 +408,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap13"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -403,6 +423,7 @@
                 android:background="#112442"
                 android:text="@string/chap05h"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -424,6 +445,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap14"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -444,6 +466,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap15"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -464,6 +487,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap16"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -478,6 +502,7 @@
                 android:background="#112442"
                 android:text="@string/chap06h"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#ffffff"
                 android:textSize="20sp" />
@@ -499,6 +524,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/chap17"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 
@@ -519,6 +545,7 @@
                 android:paddingRight="5dp"
                 android:text="@string/about2"
                 android:textAlignment="center"
+                android:fontFamily="@font/solaimanlipi"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#000000" />
 

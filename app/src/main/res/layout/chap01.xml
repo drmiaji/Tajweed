@@ -50,7 +50,8 @@
                 android:text="@string/text1a"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -91,7 +92,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1b"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -106,7 +108,8 @@
                 android:text="@string/text1c"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -147,7 +150,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1d"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -182,7 +186,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1e"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
             </TableLayout>
@@ -196,7 +201,8 @@
                 android:text="@string/text1f"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -237,7 +243,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1g"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -272,7 +279,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1h"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
             </TableLayout>
@@ -286,7 +294,8 @@
                 android:text="@string/text1i"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -327,7 +336,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1j"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -362,7 +372,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1k"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -397,7 +408,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1l"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
             </TableLayout>
@@ -411,7 +423,8 @@
                 android:text="@string/text1m"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -452,7 +465,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1n"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -487,7 +501,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1o"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
 
@@ -522,7 +537,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1p"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
             </TableLayout>
@@ -536,7 +552,8 @@
                 android:text="@string/text1q"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -577,7 +594,8 @@
                         android:paddingRight="5dp"
                         android:text="@string/text1r"
                         android:textIsSelectable="true"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
                 </TableRow>
             </TableLayout>

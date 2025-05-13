@@ -49,7 +49,8 @@
                 android:paddingRight="10dp"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                android:fontFamily="@font/solaimanlipi" />
 
             <View
                 android:layout_width="wrap_content"
