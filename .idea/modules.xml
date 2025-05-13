@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Tajweed-master.iml" filepath="$PROJECT_DIR$/Tajweed-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tajweed.iml" filepath="$PROJECT_DIR$/.idea/modules/Tajweed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tajweed.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tajweed.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tajweed.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tajweed.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tajweed.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tajweed.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Tajweed.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Tajweed.app.unitTest.iml" />
     </modules>
   </component>
 </project>
