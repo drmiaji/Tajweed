@@ -22,7 +22,7 @@ class chap01 : AppCompatActivity() {
 
         val fab = findViewById<FloatingActionButton>(R.id.fableft)
         fab.setOnClickListener(View.OnClickListener { view: View? ->
-            val right = Intent(this@chap01, intro1::class.java)
+            val right = Intent(this@chap01, Intro1::class.java)
             startActivity(right)
         })
         val fab2 = findViewById<FloatingActionButton>(R.id.fabright)

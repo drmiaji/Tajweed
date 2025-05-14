@@ -38,84 +38,84 @@
             android:parentActivityName=".MainActivity"
              />
         <activity
-            android:name=".intro0"
-            android:parentActivityName=".MainActivity"
+            android:name=".Intro0"
+            android:parentActivityName=".Main2Activity"
              />
         <activity
-            android:name=".intro1"
-            android:parentActivityName=".MainActivity"
+            android:name=".Intro1"
+            android:parentActivityName=".Main2Activity"
              />
         <activity
             android:name=".chap01"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
              />
         <activity
             android:name=".Chap02"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
              />
         <activity
             android:name=".Chap03"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
             android:name=".Chap04"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
             android:name=".Chap05"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
             android:name=".Chap06"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
             android:name=".Chap07"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
             android:name=".Chap08"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
             android:name=".Chap09"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
             android:name=".Chap10"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
             android:name=".Chap11"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
-            android:name=".chap12"
-            android:parentActivityName=".MainActivity"
+            android:name=".Chap12"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
-            android:name=".chap13"
-            android:parentActivityName=".MainActivity"
+            android:name=".Chap13"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
-            android:name=".chap14"
-            android:parentActivityName=".MainActivity"
+            android:name=".Chap14"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
-            android:name=".chap15"
-            android:parentActivityName=".MainActivity"
+            android:name=".Chap15"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
-            android:name=".chap16"
-            android:parentActivityName=".MainActivity"
+            android:name=".Chap16"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
-            android:name=".chap17"
-            android:parentActivityName=".MainActivity"
+            android:name=".Chap17"
+            android:parentActivityName=".Main2Activity"
             />
         <activity
             android:name=".About"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".Main2Activity"
              />
 
     </application>

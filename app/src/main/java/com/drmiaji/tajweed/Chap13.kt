@@ -1,30 +1,64 @@
 package com.drmiaji.tajweed
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import androidx.core.net.toUri
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import java.io.ByteArrayOutputStream
+import java.io.IOException
 
-class About : AppCompatActivity() {
+class Chap13 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_about)
+        setContentView(R.layout.chap13)
 
         val toolbar = findViewById<Toolbar?>(R.id.app_bar)
         setSupportActionBar(toolbar)
 
         if (supportActionBar != null) supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
-        val fab2 = findViewById<FloatingActionButton>(R.id.fableft)
-        fab2.setOnClickListener(View.OnClickListener { view: View? ->
-            val right = Intent(this@About, Chap17::class.java)
-            startActivity(right)
+        val fab = findViewById<FloatingActionButton>(R.id.fableft)
+        fab.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(view: View?) {
+                val right = Intent(this@Chap13, Chap12::class.java)
+                startActivity(right)
+            }
         })
+        val fab2 = findViewById<FloatingActionButton>(R.id.fabright)
+        fab2.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(view: View?) {
+                val right = Intent(this@Chap13, Chap14::class.java)
+                startActivity(right)
+            }
+        })
+
+        val textView = findViewById<TextView>(R.id.chap13)
+        textView.text = readTxt()
+    }
+
+    private fun readTxt(): String {
+        val inputStream = getResources().openRawResource(R.raw.chap13)
+
+        val byteArrayOutputStream = ByteArrayOutputStream()
+
+        try {
+            var i = inputStream.read()
+            while (i != -1) {
+                byteArrayOutputStream.write(i)
+                i = inputStream.read()
+            }
+            inputStream.close()
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+        return byteArrayOutputStream.toString()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -53,18 +87,5 @@ class About : AppCompatActivity() {
             startActivity(Intent(this, Main2Activity::class.java))
         }
         return super.onOptionsItemSelected(item)
-    }
-
-    fun goToChap(view: View) {
-        val id = view.id
-        if (id == R.id.rateUs) {
-            val moreApp = Intent(Intent.ACTION_VIEW)
-            moreApp.setData("https://play.google.com/store/search?q=drmiaji".toUri())
-            startActivity(moreApp)
-        } else if (id == R.id.link) {
-            val link = Intent(Intent.ACTION_VIEW)
-            link.setData("http://www.drmiaji.com".toUri())
-            startActivity(link)
-        }
     }
 }
