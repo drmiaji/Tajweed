@@ -50,43 +50,43 @@
             android:parentActivityName=".MainActivity"
              />
         <activity
-            android:name=".chap02"
+            android:name=".Chap02"
             android:parentActivityName=".MainActivity"
              />
         <activity
-            android:name=".chap03"
+            android:name=".Chap03"
             android:parentActivityName=".MainActivity"
             />
         <activity
-            android:name=".chap04"
+            android:name=".Chap04"
             android:parentActivityName=".MainActivity"
             />
         <activity
-            android:name=".chap05"
+            android:name=".Chap05"
             android:parentActivityName=".MainActivity"
             />
         <activity
-            android:name=".chap06"
+            android:name=".Chap06"
             android:parentActivityName=".MainActivity"
             />
         <activity
-            android:name=".chap07"
+            android:name=".Chap07"
             android:parentActivityName=".MainActivity"
             />
         <activity
-            android:name=".chap08"
+            android:name=".Chap08"
             android:parentActivityName=".MainActivity"
             />
         <activity
-            android:name=".chap09"
+            android:name=".Chap09"
             android:parentActivityName=".MainActivity"
             />
         <activity
-            android:name=".chap10"
+            android:name=".Chap10"
             android:parentActivityName=".MainActivity"
             />
         <activity
-            android:name=".chap11"
+            android:name=".Chap11"
             android:parentActivityName=".MainActivity"
             />
         <activity

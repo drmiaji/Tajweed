@@ -32,7 +32,7 @@ public class chap12 extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent right = new Intent(chap12.this, chap11.class);
+                Intent right = new Intent(chap12.this, Chap11.class);
                 startActivity(right);
             }
         });
