@@ -25,11 +25,7 @@
                 android:id="@+id/naat2"
                 android:icon="@drawable/youtube"
                 android:title="@string/naat" />
-            <item
-                android:id="@+id/naat"
-                android:icon="@drawable/youtube"
-                android:title="@string/shayer_muhammad_shahidul_islam" />
-        </menu>
+             </menu>
     </item>
 
     <item android:title="@string/be_connected">
