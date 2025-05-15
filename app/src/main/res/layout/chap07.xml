@@ -44,6 +44,8 @@
                 android:id="@+id/chap07"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textDirection="locale"
                 android:layout_marginTop="8dp"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"

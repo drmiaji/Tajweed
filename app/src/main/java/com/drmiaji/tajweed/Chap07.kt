@@ -12,6 +12,7 @@ import androidx.core.net.toUri
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import java.io.ByteArrayOutputStream
 import java.io.IOException
+import android.text.BidiFormatter
 
 class Chap07 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,21 +40,17 @@ class Chap07 : AppCompatActivity() {
     }
 
     private fun readTxt(): String {
-        val inputStream = getResources().openRawResource(R.raw.chap07)
+        val inputStream = resources.openRawResource(R.raw.chap07)
+        val text = inputStream.bufferedReader().use { it.readText() } // More efficient reading
 
-        val byteArrayOutputStream = ByteArrayOutputStream()
+        // Split text into parts, preserving hyphens
+        val parts = text.split("(?<=-)|(?=-)".toRegex()) // Split around hyphens
+        val bidiFormatter = BidiFormatter.getInstance()
 
-        try {
-            var i = inputStream.read()
-            while (i != -1) {
-                byteArrayOutputStream.write(i)
-                i = inputStream.read()
-            }
-            inputStream.close()
-        } catch (e: IOException) {
-            e.printStackTrace()
+        // Apply RTL wrapping only to non-hyphen parts
+        return parts.joinToString("") { part ->
+            if (part == "-") part else bidiFormatter.unicodeWrap(part)
         }
-        return byteArrayOutputStream.toString()
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
