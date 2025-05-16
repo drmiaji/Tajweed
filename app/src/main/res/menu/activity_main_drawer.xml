@@ -18,10 +18,6 @@
                 android:icon="@drawable/youtube"
                 android:title="@string/ajmeer" />
             <item
-                android:id="@+id/taheri"
-                android:icon="@drawable/youtube"
-                android:title="@string/taheri" />
-            <item
                 android:id="@+id/naat2"
                 android:icon="@drawable/youtube"
                 android:title="@string/naat" />

@@ -44,13 +44,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/solaimanlipi"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/chap21t1"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                android:textSize="18sp" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -76,14 +76,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap21t2"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -92,14 +92,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap21t3"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
 
@@ -119,14 +119,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap21t4"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -135,14 +135,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/chap21t5"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
 
@@ -160,9 +160,8 @@
         android:id="@+id/fableft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
         android:background="@android:drawable/screen_background_light_transparent"
         android:scaleType="fitCenter"
         app:backgroundTint="@android:drawable/screen_background_light_transparent"
@@ -173,8 +172,8 @@
         android:id="@+id/fabright"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:background="@android:drawable/screen_background_light_transparent"
         android:scaleType="fitCenter"
         app:backgroundTint="@android:drawable/screen_background_light_transparent"

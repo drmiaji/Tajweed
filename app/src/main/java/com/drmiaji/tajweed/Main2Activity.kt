@@ -1,7 +1,6 @@
 package com.drmiaji.tajweed
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -28,7 +27,7 @@ class Main2Activity : AppCompatActivity() {
         } else if (id == R.id.intro1) {
             startActivity(Intent(this, Intro1::class.java))
         } else if (id == R.id.chap01) {
-            startActivity(Intent(this, chap01::class.java))
+            startActivity(Intent(this, Chap01::class.java))
         } else if (id == R.id.chap02) {
             startActivity(Intent(this, Chap02::class.java))
         } else if (id == R.id.chap03) {
@@ -94,6 +93,9 @@ class Main2Activity : AppCompatActivity() {
             }
             R.id.action_content -> {
                 startActivity(Intent(this, Main2Activity::class.java))
+            }
+            R.id.action_about_us -> {
+                startActivity(Intent(this, About::class.java))
             }
         }
         return super.onOptionsItemSelected(item)

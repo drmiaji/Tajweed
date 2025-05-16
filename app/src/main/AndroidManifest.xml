@@ -43,7 +43,7 @@
             android:parentActivityName=".Main2Activity"
              />
         <activity
-            android:name=".chap01"
+            android:name=".Chap01"
             android:parentActivityName=".Main2Activity"
              />
         <activity

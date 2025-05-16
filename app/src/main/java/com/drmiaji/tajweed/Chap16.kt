@@ -6,9 +6,11 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.net.toUri
+import com.drmiaji.tajweed.Chap10
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import java.io.ByteArrayOutputStream
 import java.io.IOException
@@ -17,6 +19,18 @@ class Chap16 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.chap16)
+
+        // ✅ Back navigation override (modern)
+        onBackPressedDispatcher.addCallback(this,
+            object : OnBackPressedCallback(true) {
+                override fun handleOnBackPressed() {
+                    val intent = Intent(this@Chap16, Main2Activity::class.java)
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+                    startActivity(intent)
+                    finish()
+                }
+            }
+        )
 
         val toolbar = findViewById<Toolbar?>(R.id.app_bar)
         setSupportActionBar(toolbar)
@@ -88,6 +102,9 @@ class Chap16 : AppCompatActivity() {
             }
             R.id.action_content -> {
                 startActivity(Intent(this, Main2Activity::class.java))
+            }
+            R.id.action_about_us -> {
+                startActivity(Intent(this, About::class.java))
             }
         }
         return super.onOptionsItemSelected(item)

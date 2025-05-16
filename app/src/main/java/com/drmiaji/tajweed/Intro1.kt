@@ -1,15 +1,16 @@
 package com.drmiaji.tajweed
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.TextView
+import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.net.toUri
+import com.drmiaji.tajweed.Chap10
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import java.io.ByteArrayOutputStream
 import java.io.IOException
@@ -18,6 +19,18 @@ class Intro1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.intro1)
+
+        // ✅ Back navigation override (modern)
+        onBackPressedDispatcher.addCallback(this,
+            object : OnBackPressedCallback(true) {
+                override fun handleOnBackPressed() {
+                    val intent = Intent(this@Intro1, Main2Activity::class.java)
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+                    startActivity(intent)
+                    finish()
+                }
+            }
+        )
 
         val toolbar = findViewById<Toolbar?>(R.id.app_bar)
         setSupportActionBar(toolbar)
@@ -34,7 +47,7 @@ class Intro1 : AppCompatActivity() {
         val fab2 = findViewById<FloatingActionButton>(R.id.fabright)
         fab2.setOnClickListener(object : View.OnClickListener {
             override fun onClick(view: View?) {
-                val right = Intent(this@Intro1, chap01::class.java)
+                val right = Intent(this@Intro1, Chap01::class.java)
                 startActivity(right)
             }
         })
@@ -89,6 +102,9 @@ class Intro1 : AppCompatActivity() {
             }
             R.id.action_content -> {
                 startActivity(Intent(this, Main2Activity::class.java))
+            }
+            R.id.action_about_us -> {
+                startActivity(Intent(this, About::class.java))
             }
         }
         return super.onOptionsItemSelected(item)

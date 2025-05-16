@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.drmiaji.tajweed.chap01">
+    tools:context="com.drmiaji.tajweed.Chap01">
 
     <include
         android:id="@+id/app_bar"
@@ -45,13 +45,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/solaimanlipi"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/text1a"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                android:textSize="18sp" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -86,14 +86,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1b"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
 
@@ -103,13 +103,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/solaimanlipi"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/text1c"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                android:textSize="18sp" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -144,14 +144,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1d"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
 
@@ -180,14 +180,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1e"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
             </TableLayout>
@@ -196,13 +196,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/solaimanlipi"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/text1f"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                android:textSize="18sp" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -237,14 +237,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1g"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
 
@@ -273,14 +273,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1h"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
             </TableLayout>
@@ -289,13 +289,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/solaimanlipi"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/text1i"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                android:textSize="18sp" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -330,14 +330,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1j"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
 
@@ -366,14 +366,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1k"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
 
@@ -402,14 +402,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1l"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
             </TableLayout>
@@ -418,13 +418,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/solaimanlipi"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/text1m"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                android:textSize="18sp" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -459,14 +459,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1n"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
 
@@ -495,14 +495,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1o"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
 
@@ -531,14 +531,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1p"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
             </TableLayout>
@@ -547,13 +547,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/solaimanlipi"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="@string/text1q"
                 android:textColor="#000000"
                 android:textIsSelectable="true"
-                android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                android:textSize="18sp" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -588,14 +588,14 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
+                        android:fontFamily="@font/solaimanlipi"
                         android:gravity="start"
                         android:inputType="textMultiLine"
                         android:paddingLeft="5dp"
                         android:paddingRight="5dp"
                         android:text="@string/text1r"
                         android:textIsSelectable="true"
-                        android:textSize="18sp"
-                android:fontFamily="@font/solaimanlipi" />
+                        android:textSize="18sp" />
 
                 </TableRow>
             </TableLayout>

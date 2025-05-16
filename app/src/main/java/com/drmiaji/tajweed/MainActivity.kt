@@ -114,10 +114,6 @@ open class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             val miaji = Intent(Intent.ACTION_VIEW)
             miaji.setData("https://www.facebook.com/DrMiaji".toUri())
             startActivity(miaji)
-        } else if (itemId == R.id.taheri) {
-            val tahei = Intent(Intent.ACTION_VIEW)
-            tahei.setData("https://www.youtube.com/channel/UCkCdPdoBf5UpdGUPmLZxrxA/videos".toUri())
-            startActivity(tahei)
         } else if (itemId == R.id.ajmeer) {
             val ajmir = Intent(Intent.ACTION_VIEW)
             ajmir.setData("https://www.youtube.com/channel/UCC0QJFYdd4Wa4_4hlDlYF_g".toUri())

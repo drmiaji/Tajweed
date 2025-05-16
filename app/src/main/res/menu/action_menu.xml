@@ -6,7 +6,7 @@
         android:icon="@drawable/share"
         android:orderInCategory="25"
         android:title="@string/action_share"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/action_content"
         android:orderInCategory="100"
