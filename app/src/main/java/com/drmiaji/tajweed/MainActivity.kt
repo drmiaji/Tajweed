@@ -89,6 +89,7 @@ import com.drmiaji.tajweed.ui.WebViewActivity
 import com.drmiaji.tajweed.ui.theme.MyAppTheme
 import com.drmiaji.tajweed.ui.theme.topBarColors
 import kotlinx.coroutines.launch
+import androidx.core.net.toUri
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -240,13 +241,22 @@ fun MainScreen(
         Scaffold(
             topBar = {
                 TopAppBar(
-                    title = { Text(text = stringResource(id = R.string.app_name),
-                        style = TextStyle(
-                            fontFamily = FontFamily(Font(R.font.solaimanlipi)),
-                            fontWeight = FontWeight.Bold,
-                            fontSize = 20.sp
-                        )
-                        ) },
+                    title = {
+                        Box(
+                            Modifier
+                                .fillMaxWidth(),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                text = stringResource(id = R.string.app_name),
+                                style = TextStyle(
+                                    fontFamily = FontFamily(Font(R.font.solaimanlipi)),
+                                    fontWeight = FontWeight.Bold,
+                                    fontSize = 20.sp
+                                )
+                            )
+                        }
+                    },
                     navigationIcon = {
                         IconButton(onClick = { scope.launch { drawerState.open() } }) {
                             Icon(Icons.Default.Menu, contentDescription = "Menu")
@@ -274,8 +284,8 @@ fun MainScreen(
                                 DropdownMenuItem(
                                     text = { Text("Privacy Policy") },
                                     onClick = {
-                                        val url = "https://www.yoursite.com/privacy"
-                                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+                                        val url = "https://drmiaji.github.io/Tajweed/privacy_policy.html"
+                                        val intent = Intent(Intent.ACTION_VIEW, url.toUri())
                                         context.startActivity(intent)
                                         showMenu = false
                                     }
