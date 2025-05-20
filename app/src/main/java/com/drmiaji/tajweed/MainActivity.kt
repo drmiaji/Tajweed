@@ -139,7 +139,7 @@ fun MainScreen(
         DrawerMenuGroup(
             groupTitle = "এবাউট এপ",
             items = listOf(
-                DrawerItem("সেটিংস", "এপ নিয়ন্ত্রণ করুন", Icons.Default.Settings, activityClass = SettingsActivity::class.java),
+                DrawerItem("সেটিংস", "এপ নিয়ন্ত্রণ করুন", R.drawable.ic_settings, activityClass = SettingsActivity::class.java),
                 DrawerItem("এবাউট", "আমাদের সম্পর্কে", Icons.Default.Architecture, activityClass = About::class.java),
             )
         ),
