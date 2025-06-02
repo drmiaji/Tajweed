@@ -313,7 +313,7 @@ fun MainScreen(
                 contentAlignment = Alignment.Center
             ) {
                 Image(
-                    painter = painterResource(id = R.drawable.tajweed01),
+                    painter = painterResource(id = R.drawable.tajweed0),
                     contentDescription = "App Logo",
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
